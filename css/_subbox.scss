@@ -1,0 +1,12 @@
+.subbox {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.heade {
+    h1 {
+        font-family: $bold;
+        color: white;
+    }
+}

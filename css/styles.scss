@@ -1,0 +1,28 @@
+@import 'default';
+@import 'config';
+@import 'swit';
+@import 'squarebox';
+@import 'subbox';
+.head {
+    font-family: $bold;
+    color: hsl(228, 34%, 66%);
+    h1 {
+        color: white;
+        font-family: $bold;
+        font-size: x-large;
+    }
+    .mode {
+        padding-top: 15px;
+        display: flex;
+        .switch {
+            margin-left: auto;
+        }
+    }
+    hr {
+        color: grey;
+        margin: 0 auto;
+        border-style: solid none none none;
+        border-width: 1px;
+        width: 100%;
+    }
+}
